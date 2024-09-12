@@ -12,7 +12,7 @@ public class first{
         long l=378234l;
         //by default it is in double so that why we use f and l
         char c='A';
-        sc.nextLine();
+        sc.nextLine()
         String s=sc.nextLine();
         System.out.println("string is "+s);
         int g=150;
