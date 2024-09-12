@@ -7,7 +7,7 @@ public class first{
         System.out.println("entered number was "+n);
         int a=10;
         byte b=20;
-        float fl=10.20f;
+        float fl=100.20f;
         double d=10.20;
         long l=378204l;
         //by default it is in double so that why we use f and l
