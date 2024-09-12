@@ -9,7 +9,7 @@ public class first{
         byte b=20;
         float fl=10.20f;
         double d=10.20;
-        long l=378234l;
+        long l=378204l;
         //by default it is in double so that why we use f and l
         char c='A';
         sc.nextLine();
