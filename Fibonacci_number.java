@@ -11,11 +11,12 @@ public class Fibonacci_number {
             c=a+b;
             a=b;
             b=c;
-if(c==n){
-    t=true;
-    System.out.println("the number is fibo "+n);
+            if(c==n){
+                t=true;
+                System.out.println("the number is fibo "+n);
 }
         }
+        
         if(t==false){
             System.out.println("this is not fibo "+n);
         }
