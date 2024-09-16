@@ -10,5 +10,6 @@ public class Aphabet_check {
         else{
             System.out.println("no its not "+ch);
         }
+        System.out.println("check ho gya ");
     }
 }
