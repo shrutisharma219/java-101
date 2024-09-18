@@ -1,4 +1,5 @@
 package syntax_basics;
+import java.util.Arrays;
 
 public class string1 {
     public static void main(String[] args) {
@@ -20,6 +21,20 @@ public class string1 {
         //gives 98 that is sum of unicode of a +1
         System.out.println("a"+1);
         ///gives a1 because it converts 1 into "1"
+        //+ in java is applied to only primitives and string
+        StringBuilder build=new StringBuilder();
+        for(int i=0;i<26;i++){
+            char ch=(char)('a'+i);
+            build.append(ch);
+        }
+        System.out.println(build);
+        //changes the string object without creating a new object everytime
+        String name="sdfghjkl";
+        System.out.println(Arrays.toString(name.toCharArray()));
+        System.out.println(name.toLowerCase());
+        System.out.println(name);
+        //it does not changes the name just print 
+        System.out.println("index of j is "+(name.indexOf('j')));
     }
     
 }
