@@ -30,6 +30,9 @@ public class string1 {
         System.out.println(build);
         //changes the string object without creating a new object everytime
         String name="sdfghjkl";
+        char[] arr=new char[name.length()];
+        arr=name.toCharArray();
+        System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(name.toCharArray()));
         System.out.println(name.toLowerCase());
         System.out.println(name);
