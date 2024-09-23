@@ -10,7 +10,6 @@ public class insert_string_in_string {
         for(int i=0;i<=id;i++){
             char ch=ogst.charAt(i);
             sb.append(ch);
-
         }
        sb.append(inst);
         for(int i=id+1;i<ogst.length();i++){
