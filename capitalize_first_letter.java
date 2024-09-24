@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class capitalize_first_letter {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the string ");
         String s=sc.nextLine();
         String []sa=s.split(" ");
         StringBuilder sb=new StringBuilder();

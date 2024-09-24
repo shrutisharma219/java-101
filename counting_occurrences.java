@@ -13,9 +13,9 @@ public class Counting_occurrences {
             if(rem==a){
                 c++;
             }
-            n=n/10;
-            
+            n=n/10;    
         }
+        
         System.out.println("to check the ");
         System.out.println("no of occurrence of "+a+" in "+no+" is "+c);
     }
