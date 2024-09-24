@@ -16,11 +16,9 @@ public class Fibonacci_number {
                 System.out.println("the number is fibo "+n);
 }
         }
-        
         if(t==false){
             System.out.println("this is not fibo "+n);
         }
-
     }
     
 }
