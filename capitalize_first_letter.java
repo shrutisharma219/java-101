@@ -14,7 +14,5 @@ public class capitalize_first_letter {
         }
         String newstring=sb.toString().trim();
         System.out.println("new string is "+newstring);
-
-
     }
 }
