@@ -17,6 +17,5 @@ public class insert_string_in_string {
         }
         String new_string=sb.toString().trim();
         System.out.println("new string is "+new_string);
-        
     }
 }
