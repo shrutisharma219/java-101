@@ -1,5 +1,5 @@
 package testpad;
-
+import java.util.*;
 public class replace_char {
     public static void main(String[] args) {
         String s="thename";
@@ -14,6 +14,17 @@ public class replace_char {
             sb.append(ch);
         }
         System.out.println("new string is "+sb);
+        char tempArray[] = s.toCharArray();
+
+        // Sorting temp array using
+        Arrays.sort(tempArray);
+        String ss=new String(tempArray);
+
+        // Returning new sorted string
+        System.out.println(ss);
+        char c='c';
+        int ab=(int)c;
+        System.out.println(ab);
     }
     
 }
