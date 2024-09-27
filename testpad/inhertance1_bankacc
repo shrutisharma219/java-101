@@ -1,0 +1,40 @@
+class MinMaxAccount extends BankAccount 
+{ 
+
+  private int minn;
+  private int maxx;
+  public MinMaxAccount(int number, int bal){
+  super(number, bal);
+  this.minn=bal;
+  this.maxx=bal;
+  }
+  
+  public void withdraw(int amt){
+   super.withdraw(amt);
+   minmax();
+  }
+  
+  public void deposit(int amt){
+   super.deposit(amt);
+   minmax();
+  }
+  public void minmax(){
+  int current=getBalance();
+  if(current<minn){
+  minn=current;
+  }
+  if(current>maxx){
+  maxx=current;
+  }
+  }
+  
+  public int getMin(){
+  return minn;
+  }
+  public int getMax(){
+  return maxx;
+  }
+
+    // Complete the class definition according to requirement
+
+}
