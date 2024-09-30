@@ -25,6 +25,23 @@ public class replace_char {
         char c='c';
         int ab=(int)c;
         System.out.println(ab);
+        // ArrayList<String> subStringList 
+        //     = SubstringsOfAString.splitSubstrings( 
+        //         stringInput); 
+        
+
+
+        //ArrayList<String> stringList = new ArrayList<>(Arrays.asList(inputString.split(" ")));
+
+        // Step 1: Split the string into an array of substrings
+// String[] stringArray = inputString.split(" ");
+
+// // Step 2: Convert the array to a List
+// List<String> stringListAsList = Arrays.asList(stringArray);
+
+// // Step 3: Create an ArrayList from the List
+// ArrayList<String> stringList = new ArrayList<>(stringListAsList);
+
     }
     
 }
