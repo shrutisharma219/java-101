@@ -15,7 +15,5 @@ public class exceptional_handleing_1 {
         System.out.println("after try catch ");
     }       
 }
-//}}}}}
-//}}}}}
-//}}}}
+
 
