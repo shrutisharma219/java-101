@@ -14,7 +14,6 @@ public class prime_no2 {
             
         }
         
-
     }
     
 }
