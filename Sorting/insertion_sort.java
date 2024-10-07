@@ -20,9 +20,43 @@ public class insertion_sort {
                 a[j+1]=z;
             }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
             for(int i=0;i<n;i++){
                 System.out.print(a[i]+" ");
             }      
-            
+
     }
 }
