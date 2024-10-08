@@ -9,6 +9,7 @@ public class balance_array {
         for (int i = 0; i < n; i++) {
             a[i] = sc.nextInt();
         }
+
         int l = a[0];
         int r = a[n - 1];
         int j = n - 1;
@@ -61,5 +62,40 @@ public class balance_array {
         // }
         System.out.println("ans is " + c);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
     }
 }
