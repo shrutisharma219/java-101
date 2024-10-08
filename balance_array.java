@@ -62,5 +62,23 @@ public class balance_array {
         // }
         System.out.println("ans is " + c);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     }
 }
