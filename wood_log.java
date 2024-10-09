@@ -9,7 +9,6 @@ public class wood_log {
         for(int i=0;i<n;i++){
             a[i]=sc.nextInt();
         }
-        int c=0;
         int x=0;
         int z=n-1;
         
