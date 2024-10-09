@@ -8,11 +8,11 @@ public class binary101 {
         int e=n-1;
         while(s<=e){
             int mid=s+(e-s)/2;
-            if(a[mid]<k){
+            if(a[mid]>k){
                 e=mid-1;
 
             }
-            else if(a[mid]>k){
+            else if(a[mid]<k){
                 s=mid+1;
             }
             else{
@@ -22,7 +22,7 @@ public class binary101 {
         return -1;
 
     }
-    
+
     public static void main(String[] args) {
         int n;
         Scanner sc=new Scanner(System.in);

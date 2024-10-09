@@ -11,7 +11,6 @@ public class binary_des {
             int mid=s+(e-s)/2;
             if(a[mid]<k){
                 e=mid-1;
-
             }
             else if(a[mid]>k){
                 s=mid+1;
@@ -23,8 +22,6 @@ public class binary_des {
         return -1;
 
     }
-
-
     public static void main(String[] args) {
         int n;
         Scanner sc=new Scanner(System.in);
@@ -33,6 +30,7 @@ public class binary_des {
         for(int i=0;i<n;i++){
             a[i]=sc.nextInt();
         }
+        
         System.out.println("enter key to search ");
         int k=sc.nextInt();
         int ans=binary(a,n,k);
