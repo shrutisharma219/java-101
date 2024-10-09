@@ -30,7 +30,19 @@ public class wood_log {
             }
         }
         System.out.println("ans is "+(z-x));
+//int c=0;
+// for(int i=0;i<n-1;i++){
+        //     if(a[i]==1 && a[i+1]==0){
+        //         c++;
+        //     }
+        //    if (a[i]==0 && a[i+1]==1){
+        //         c++;
+        //     }
+        //      if(a[i]==0 && a[i+1]==0){
+        //         c++;
+        //     }
 
+        // }
     
 }
 }

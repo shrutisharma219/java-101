@@ -3,7 +3,6 @@ package binary_search;
 import java.util.Scanner;
 import javax.lang.model.util.ElementScanner14;
 
-
 public class just_greater {
     static int justgreater(int [] a,int n, int k){
         int s=0;
@@ -37,6 +36,4 @@ public class just_greater {
         int k=sc.nextInt();
         int ans=justgreater(a,n,k);
         System.out.println("ans is "+ans);
-
-    
 }}
