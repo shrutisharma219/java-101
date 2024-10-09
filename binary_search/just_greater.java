@@ -26,6 +26,43 @@ public class just_greater {
     }
      public static void main(String[] args) {
         int n;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         Scanner sc=new Scanner(System.in);
         n=sc.nextInt();
         int []a=new int[n];
