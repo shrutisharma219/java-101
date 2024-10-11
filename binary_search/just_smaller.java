@@ -9,9 +9,9 @@ public class just_smaller {
         int r=-1;
         while(s<=e){
             int mid =s+(e-s)/2;
-            // if(a[mid]==k){
-            //     return mid;
-            // }
+            if(a[mid]==k){
+                return mid;
+            }
             else if(a[mid]<k){
                  r=mid;
                 s=mid+1;
@@ -20,6 +20,33 @@ public class just_smaller {
                 e=mid-1;
             }
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         return a[r];
         // int low = 0, high = arr.length - 1;
         // int result = -1;  // Default if no smaller number is found.
