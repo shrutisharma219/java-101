@@ -21,7 +21,7 @@ public class just_smaller {
             }
         }
         return a[r];
-        // int low = 0, high = arr.length - 1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;''
+        // int low = 0, high = arr.length - 1;
         // int result = -1;  // Default if no smaller number is found.
 
         // while (low <= high) {
