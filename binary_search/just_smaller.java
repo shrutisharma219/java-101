@@ -25,7 +25,7 @@ public class just_smaller {
         // int result = -1;  // Default if no smaller number is found.
 
         // while (low <= high) {
-        //     int mid = low + (high - low) / 2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        //     int mid = low + (high - low) / 2;
 
         //     if (arr[mid] < key) {
         //         // If we find a smaller element, record it as a potential result.
