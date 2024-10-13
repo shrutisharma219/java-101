@@ -21,28 +21,6 @@ static int mountain(int a[], int n){
     }
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
          public static void main(String[] args) {
         int n;
         Scanner sc=new Scanner(System.in);
