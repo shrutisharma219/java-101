@@ -18,20 +18,6 @@ static int mountain(int a[], int n){
         else{
             e=mid-1;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
     }
     return 0;
 }
