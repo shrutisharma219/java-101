@@ -33,5 +33,10 @@ static int mountain(int a[], int n){
         System.out.println("ans is "+ans);
 }
 
-    
-}
+
+
+
+
+
+                
+                                                     }
