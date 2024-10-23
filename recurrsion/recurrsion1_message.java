@@ -177,6 +177,18 @@ System.out.println(n);
           
          
     }}
+    class Result{ 
+        static int decimalToBinary(int n){ 
+     if(n==0){
+       return 0;
+     }
+          int l=n%2;
+          int r=decimalToBinary(n/2);
+          return r*10+l;
+           
+          
+         
+    }}
 
 
 }
